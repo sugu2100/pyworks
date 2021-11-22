@@ -1,7 +1,7 @@
 #if ~elif ~ else 구문
 # 놀이공원 입장료 계산 프로그램
 
-age = 15
+age = 12
 charge = 0
 if age < 8:
     print("미취학 아동입니다.")
