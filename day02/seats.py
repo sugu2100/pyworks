@@ -5,9 +5,11 @@ col = int(input("좌석 열 수 입력 : "))
 
 # 나머지 없는 경우 있는 경우로 row 계산
 if customer % col == 0:
-    row = customer // col  
+    #row = customer // col
+    row = int(customer / col)
 else:
-    row = customer // col + 1  #몫 + 1
+    #row = customer // col + 1  #몫 + 1
+    row = int(customer / col) + 1
 
 for i in range(0, row):
     for j in range(1, col+1):
