@@ -11,7 +11,7 @@ def polygon2(n, d): # d - 거리
         t.forward(d)
         t.left(360/n)
 
-polygon(3)
+polygon(3)   # 삼각형 실행
 polygon(5)
 
 t.up()          #선 올리기
